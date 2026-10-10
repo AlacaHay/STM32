@@ -1,0 +1,10 @@
+18:35:58 **** Build of configuration Debug for project 06_Sicaklik_Sensoru ****
+make -j20 all 
+arm-none-eabi-size  06_Sicaklik_Sensoru.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8960	     12	   1652	  10624	   2980	06_Sicaklik_Sensoru.elf
+Finished building: default.size.stdout
+ 
+
+18:35:59 Build Finished. 0 errors, 0 warnings. (took 599ms)
+

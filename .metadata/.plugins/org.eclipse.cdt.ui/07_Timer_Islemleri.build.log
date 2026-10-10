@@ -1,0 +1,10 @@
+18:35:59 **** Build of configuration Debug for project 07_Timer_Islemleri ****
+make -j20 all 
+arm-none-eabi-size  07_Timer_Islemleri.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8308	     12	   1644	   9964	   26ec	07_Timer_Islemleri.elf
+Finished building: default.size.stdout
+ 
+
+18:36:00 Build Finished. 0 errors, 0 warnings. (took 536ms)
+

@@ -1,0 +1,16 @@
+18:35:48 **** Build of configuration Release for project 02_GPIO_islemleri ****
+make -j20 all 
+arm-none-eabi-gcc -o "02_GPIO_islemleri.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\STM32\02_GPIO_islemleri\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="02_GPIO_islemleri.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 02_GPIO_islemleri.elf
+ 
+arm-none-eabi-size  02_GPIO_islemleri.elf 
+arm-none-eabi-objdump -h -S 02_GPIO_islemleri.elf  > "02_GPIO_islemleri.list"
+   text	   data	    bss	    dec	    hex	filename
+   4264	     12	   1572	   5848	   16d8	02_GPIO_islemleri.elf
+Finished building: default.size.stdout
+ 
+Finished building: 02_GPIO_islemleri.list
+ 
+
+18:35:52 Build Finished. 0 errors, 0 warnings. (took 3s.583ms)
+

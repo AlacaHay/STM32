@@ -1,0 +1,10 @@
+18:36:03 **** Build of configuration Debug for project 10_DMA_ADC ****
+make -j20 all 
+arm-none-eabi-size  10_DMA_ADC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11080	     12	   1748	  12840	   3228	10_DMA_ADC.elf
+Finished building: default.size.stdout
+ 
+
+18:36:03 Build Finished. 0 errors, 0 warnings. (took 438ms)
+

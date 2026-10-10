@@ -1,0 +1,15 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:02_GPIO_islemleri Debug (1),org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:01_GPIO Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:03_GPIO_uygulama Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:04_Interrupt Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:06_Sicaklik_Sensoru Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:07_Timer_Islemleri Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:08_Timer_LED_Kontrolu Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:10_DMA_ADC Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:01_GPIO\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:01_GPIO\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:02_GPIO_islemleri\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:03_GPIO_uygulama\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:04_Interrupt\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:06_Sicaklik_Sensoru\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:08_Timer_LED_Kontrolu\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:10_DMA_ADC\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:02_GPIO_islemleri\ Debug\ (1)/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:02_GPIO_islemleri\ Debug\ (1)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
